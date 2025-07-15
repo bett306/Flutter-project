@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "title": "Equity Bank Wings to Fly Scholarship",
+    "description": "Full secondary school scholarship for high-performing students from needy backgrounds.",
+    "deadline": "2025-08-01",
+    "type": "Scholarship",
+    "applyLink": "https://equitygroupfoundation.com/wings-to-fly"
+  },
+  {
+    "id": "2",
+    "title": "Safaricom Internship Program",
+    "description": "3-month internship program for university students in IT, business, and engineering.",
+    "deadline": "2025-07-31",
+    "type": "Internship",
+    "applyLink": "https://careers.safaricom.co.ke"
+  },
+  {
+    "id": "3",
+    "title": "Ajira Digital Training Bootcamp",
+    "description": "Free online training to help youth access online jobs.",
+    "deadline": "2025-09-15",
+    "type": "Training",
+    "applyLink": "https://ajiradigital.go.ke"
+  },
+  {
+    "id": "4",
+    "title": "KenGen Graduate Trainee Program",
+    "description": "12-month graduate program for engineering and IT graduates. Includes training and placement.",
+    "deadline": "2025-10-01",
+    "type": "Job",
+    "applyLink": "https://careers.kengen.co.ke"
+  },
+  {
+    "id": "5",
+    "title": "Google Africa Developer Scholarship",
+    "description": "Access free Google-backed training in Android, Web, and Cloud technologies.",
+    "deadline": "2025-09-10",
+    "type": "Scholarship",
+    "applyLink": "https://africa.googledevelopers.dev"
+  },
+  {
+    "id": "6",
+    "title": "UNICEF Youth Innovation Challenge",
+    "description": "Submit your tech ideas solving youth-related problems for a chance to win funding and mentorship.",
+    "deadline": "2025-08-20",
+    "type": "Training",
+    "applyLink": "https://unicef.org/youth-innovation"
+  },
+  {
+    "id": "7",
+    "title": "PwC Graduate Recruitment",
+    "description": "Full-time graduate roles in accounting, IT, and consulting for top university graduates.",
+    "deadline": "2025-09-05",
+    "type": "Job",
+    "applyLink": "https://pwc.com/ke/en/careers"
+  },
+  {
+    "id": "8",
+    "title": "eMobilis Software Development Scholarship",
+    "description": "Free scholarship for mobile/web development training at eMobilis, Nairobi.",
+    "deadline": "2025-08-15",
+    "type": "Scholarship",
+    "applyLink": "https://emobilis.ac.ke"
+  },
+  {
+    "id": "9",
+    "title": "Andela Technical Leadership Program",
+    "description": "An intensive remote training program for aspiring software engineers in Africa.",
+    "deadline": "2025-09-25",
+    "type": "Training",
+    "applyLink": "https://andela.com"
+  },
+  {
+    "id": "10",
+    "title": "ICT Authority Internship Program",
+    "description": "6-month government internship in ICT-related departments, open to recent graduates.",
+    "deadline": "2025-08-30",
+    "type": "Internship",
+    "applyLink": "https://icta.go.ke/internship"
+  }
+]
