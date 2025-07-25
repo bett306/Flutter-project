@@ -33,7 +33,7 @@ lib/
 ### Getting Started
  Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/youth-opportunity-hub.git
+git clone https://github.com/bett306/Flutter-project.git
 cd youth-opportunity-hub
 
 ```
