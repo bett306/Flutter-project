@@ -52,6 +52,8 @@ flutter clean
 flutter pub get
 flutter run
 ```
+You can view the app via browser using this link below.
+Hosting URL: [Live Demo](https://youth-opportunity-hub.web.app)
 
 | Feature                        | Status     |
 | ------------------------------ | ---------- |
