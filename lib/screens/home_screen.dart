@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import '../services/local_data_service.dart';
 import '../models/opportunity_model.dart';
-import 'details_screen.dart'; // Make sure this import exists
+import 'details_screen.dart';
+import 'saved_options_screen.dart'; // <-- New import
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -13,6 +14,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   late Future<List<Opportunity>> futureOpportunities;
   String _selectedCategory = 'All';
+  Set<String> bookmarkedIds = {}; // Tracks bookmarked items by ID
 
   @override
   void initState() {
@@ -35,10 +37,49 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  void _toggleBookmark(String id) {
+    setState(() {
+      if (bookmarkedIds.contains(id)) {
+        bookmarkedIds.remove(id);
+      } else {
+        bookmarkedIds.add(id);
+      }
+    });
+  }
+
+  void _goToSavedOptions(List<Opportunity> opportunities) {
+    final bookmarked = opportunities
+        .where((opp) => bookmarkedIds.contains(opp.id))
+        .toList();
+
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => SavedOptionsScreen(bookmarkedItems: bookmarked),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Opportunities')),
+      appBar: AppBar(
+        title: const Text('Opportunities'),
+        actions: [
+          FutureBuilder<List<Opportunity>>(
+            future: futureOpportunities,
+            builder: (context, snapshot) {
+              if (snapshot.hasData) {
+                return IconButton(
+                  icon: const Icon(Icons.bookmark),
+                  onPressed: () => _goToSavedOptions(snapshot.data!),
+                );
+              }
+              return const SizedBox.shrink();
+            },
+          ),
+        ],
+      ),
       body: FutureBuilder<List<Opportunity>>(
         future: futureOpportunities,
         builder: (context, snapshot) {
@@ -84,21 +125,31 @@ class _HomeScreenState extends State<HomeScreen> {
                   itemCount: opportunities.length,
                   itemBuilder: (context, index) {
                     final opp = opportunities[index];
+
                     // Filter by selected category
                     if (_selectedCategory != 'All' &&
                         opp.type != _selectedCategory) {
                       return const SizedBox.shrink();
                     }
+
+                    final isBookmarked = bookmarkedIds.contains(opp.id);
+
                     return Card(
                       child: ListTile(
                         title: Text(opp.title),
                         subtitle: Text(
                           '${opp.type} • Deadline: ${opp.deadline}',
                         ),
-                        onTap: () => _navigateToDetails(
-                          context,
-                          opp,
-                        ), // Added navigation
+                        trailing: IconButton(
+                          icon: Icon(
+                            isBookmarked
+                                ? Icons.bookmark
+                                : Icons.bookmark_border,
+                            color: isBookmarked ? Colors.blue : null,
+                          ),
+                          onPressed: () => _toggleBookmark(opp.id),
+                        ),
+                        onTap: () => _navigateToDetails(context, opp),
                       ),
                     );
                   },

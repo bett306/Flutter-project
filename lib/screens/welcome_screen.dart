@@ -8,7 +8,20 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Youth Opportunity Hub')),
+      backgroundColor: const Color(0xFF9ba0a8),
+      appBar: AppBar(
+        backgroundColor: const Color.fromARGB(255, 68, 110, 177),
+        centerTitle: true,
+        title: const Text(
+          'Youth Opportunity Hub',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 22,
+            color: Colors.white,
+          ),
+        ),
+        elevation: 0,
+      ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -73,3 +86,4 @@ class WelcomeScreen extends StatelessWidget {
     );
   }
 }
+// This code defines a WelcomeScreen widget that serves as the initial screen of the app.

@@ -78,5 +78,165 @@
     "deadline": "2025-08-30",
     "type": "Internship",
     "applyLink": "https://icta.go.ke/internship"
+  },
+  {
+    "id": "11",
+    "title": "KCB Foundation Scholarship",
+    "description": "Full scholarship for bright students from disadvantaged backgrounds in Kenya.",
+    "deadline": "2025-08-12",
+    "type": "Scholarship",
+    "applyLink": "https://kcbgroup.com/foundation"
+  },
+  {
+    "id": "12",
+    "title": "Microsoft Learn Student Ambassadors Internship",
+    "description": "Part-time program to empower students with tech skills while working on real-world projects.",
+    "deadline": "2025-08-28",
+    "type": "Internship",
+    "applyLink": "https://studentambassadors.microsoft.com"
+  },
+  {
+    "id": "13",
+    "title": "IBM SkillsBuild Free Training",
+    "description": "Online free training in Data Science, AI, and Cloud Computing with IBM certification.",
+    "deadline": "2025-12-31",
+    "type": "Training",
+    "applyLink": "https://skillsbuild.org"
+  },
+  {
+    "id": "14",
+    "title": "Kenya Airways Graduate Trainee Program",
+    "description": "One-year graduate program in aviation management, engineering, and business.",
+    "deadline": "2025-09-30",
+    "type": "Job",
+    "applyLink": "https://kenya-airways.com/careers"
+  },
+  {
+    "id": "15",
+    "title": "Mastercard Foundation Scholarship at UoN",
+    "description": "Full university scholarship for African students at the University of Nairobi.",
+    "deadline": "2025-09-20",
+    "type": "Scholarship",
+    "applyLink": "https://uonbi.ac.ke/mastercard"
+  },
+  {
+    "id": "16",
+    "title": "Equity Bank IT Graduate Internship",
+    "description": "IT-focused graduate internship program for fresh university graduates.",
+    "deadline": "2025-08-18",
+    "type": "Internship",
+    "applyLink": "https://equitybank.co.ke/careers"
+  },
+  {
+    "id": "17",
+    "title": "ALX Software Engineering Program",
+    "description": "Free 12-month training in software engineering for African youth.",
+    "deadline": "2025-09-05",
+    "type": "Training",
+    "applyLink": "https://www.alxafrica.com"
+  },
+  {
+    "id": "18",
+    "title": "UNDP Graduate Opportunities",
+    "description": "Multiple graduate-level job opportunities in development and policy work.",
+    "deadline": "2025-08-27",
+    "type": "Job",
+    "applyLink": "https://jobs.undp.org"
+  },
+  {
+    "id": "19",
+    "title": "KUCCPS Engineering Scholarship",
+    "description": "Partial scholarship for engineering students joining public universities in Kenya.",
+    "deadline": "2025-08-22",
+    "type": "Scholarship",
+    "applyLink": "https://kuccps.net"
+  },
+  {
+    "id": "20",
+    "title": "Coca-Cola Beverages Africa Internship",
+    "description": "Internship program in business, engineering, and supply chain management.",
+    "deadline": "2025-09-12",
+    "type": "Internship",
+    "applyLink": "https://ccbagroup.com/careers"
+  },
+  {
+    "id": "21",
+    "title": "Mozilla Open Source Training",
+    "description": "Training program to contribute to open-source projects while learning modern web technologies.",
+    "deadline": "2025-10-15",
+    "type": "Training",
+    "applyLink": "https://mozilla.org"
+  },
+  {
+    "id": "22",
+    "title": "Safaricom Graduate Management Program",
+    "description": "Full-time rotational job program for exceptional graduates in tech and business.",
+    "deadline": "2025-09-08",
+    "type": "Job",
+    "applyLink": "https://careers.safaricom.co.ke"
+  },
+  {
+    "id": "23",
+    "title": "Huawei Seeds for the Future Scholarship",
+    "description": "ICT skills scholarship and study visit to Huawei HQ in China.",
+    "deadline": "2025-09-02",
+    "type": "Scholarship",
+    "applyLink": "https://huawei.com"
+  },
+  {
+    "id": "24",
+    "title": "UN Habitat Youth Internship",
+    "description": "Internship for young professionals in urban planning, policy, and community development.",
+    "deadline": "2025-08-29",
+    "type": "Internship",
+    "applyLink": "https://unhabitat.org/careers"
+  },
+  {
+    "id": "25",
+    "title": "African Leadership University Data Science Training",
+    "description": "Data Science bootcamp for African youth with project-based learning.",
+    "deadline": "2025-11-10",
+    "type": "Training",
+    "applyLink": "https://alueducation.com"
+  },
+  {
+    "id": "26",
+    "title": "KPMG Graduate Trainee Program",
+    "description": "Graduate program in auditing, consulting, and IT advisory.",
+    "deadline": "2025-09-14",
+    "type": "Job",
+    "applyLink": "https://home.kpmg/ke/en/home/careers.html"
+  },
+  {
+    "id": "27",
+    "title": "Chevening Scholarship",
+    "description": "UK government scholarship for postgraduate studies in the UK.",
+    "deadline": "2025-11-03",
+    "type": "Scholarship",
+    "applyLink": "https://www.chevening.org"
+  },
+  {
+    "id": "28",
+    "title": "World Bank Summer Internship",
+    "description": "Global internship program for students interested in development and finance.",
+    "deadline": "2025-12-01",
+    "type": "Internship",
+    "applyLink": "https://worldbank.org/internship"
+  },
+  {
+    "id": "29",
+    "title": "Google Africa Career Certificates Training",
+    "description": "Free professional career certificate programs from Google.",
+    "deadline": "2025-10-05",
+    "type": "Training",
+    "applyLink": "https://grow.google/africa"
+  },
+  {
+    "id": "30",
+    "title": "UNESCO ICT for Education Job Openings",
+    "description": "Full-time job openings for ICT in education specialists.",
+    "deadline": "2025-09-28",
+    "type": "Job",
+    "applyLink": "https://unesco.org/careers"
   }
 ]

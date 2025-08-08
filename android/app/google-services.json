@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "995525214",
+    "project_id": "youth-opportunity-hub",
+    "storage_bucket": "youth-opportunity-hub.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995525214:android:58ae97ce1e7afb56966acf",
+        "android_client_info": {
+          "package_name": "com.example.youth_hub_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzASaXEfNFhf7bmiJB7dOw9esOiie5yXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
