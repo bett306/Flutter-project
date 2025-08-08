@@ -61,8 +61,7 @@ Hosting URL: [Live Demo](https://youth-opportunity-hub.web.app)
 | List of Opportunities          | ✅ Done     |
 | Search + Filter by Category    | ✅ Done     |
 | View details + apply link      | ✅ Done     |
-| Bookmark/save feature          | 🔜 Planned |
-| Firebase integration (backend) | 🔜 Planned |
+| Bookmark/save feature          | ✅ Done     |
 | Admin panel for submissions    | ⏳ Future   |
 
 
